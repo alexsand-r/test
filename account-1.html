@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/nouislider.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>account-1</title>
+
+
+</head>
+
+<body id="body-page" class="dark:bg-gray-800">
+    <div class="wrapper flex min-h-[100vh] flex-col">
+        <!-- Header -->
+        <header>
+            <div class="dark:bg-gray-800">
+                <div class="mx-auto max-w-[1290px] px-[15px]">
+                    <div class="flex justify-between mx-auto max-w-screen-xl py-[7px] ">
+                        <div class="flex justify-center items-center gap-[32px]">
+                            <a href="#" class="hidden lg:flex items-center">
+                                <div class="w-full">
+                                    <img src="img/logo/logo_black.svg" alt="logo">
+                                </div>
+                            </a>
+
+
+                            <a href="https://flowbite.com" class="flex lg:hidden items-center gap-x-2">
+                                <img src="img/logo/a-logo.svg" alt="logo">
+                                <img src="img/logo/logo-mobile.svg" alt="logo">
+                            </a>
+
+                            <div class="hidden md:flex justify-center items-center gap-[32px]">
+                                <button type="button"
+                                    class="text-sm font-medium text-gray-500 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">For
+                                    dealers</button>
+                                <button type="button"
+                                    class="text-sm font-medium text-gray-500 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Franchise</button>
+                            </div>
+
+
+                        </div>
+
+
+
+                        <!-- block EN-Cur -->
+                        <div class="hidden md:flex items-center ">
+                            <!-- English -->
+
+                            <div>
+                                <button type="button" data-dropdown-toggle="language-dropdown"
+                                    class="inline-flex items-center text-gray-900 dark:text-gray-300 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm  py-2 lg:py-2.5  dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800 pl-[10px] pr-[10px] mr-4">
+
+                                    <span class="hidden mr-2 md:inline">English</span>
+                                    <svg class="hidden w-4 h-4 md:inline" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M19 9l-7 7-7-7">
+                                        </path>
+                                    </svg>
+                                </button>
+                                <div>
+                                    <div class="hidden z-50 my-4 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 "
+                                        id="language-dropdown">
+                                        <ul class="py-1 ">
+                                            <li>
+                                                <a href="#"
+                                                    class="block py-2 px-[11px] text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white ">
+                                                    <div class="inline-flex items-center">
+
+                                                        English (US)
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"
+                                                    class="block py-2 px-[11px] text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white ">
+                                                    <div class="inline-flex items-center">
+
+                                                        Deutsch
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"
+                                                    class="block py-2 px-[11px] text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white ">
+                                                    <div class="inline-flex items-center">
+
+                                                        Italiano
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"
+                                                    class="block py-2 px-[11px] text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white ">
+                                                    <div class="inline-flex items-center">
+
+                                                        中文 (繁體)
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+                                </div>
+
+
+
+                            </div>
+
+                            <!-- Currency -->
+                            <div class="w-[110px]">
+                                <button type="button" data-dropdown-toggle="language-dropdown-currency"
+                                    class="inline-flex items-center text-gray-900 dark:text-gray-300 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm  py-2 lg:py-2.5  dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800 pl-[10px] pr-[10px] ">
+
+                                    <span class="hidden mr-2 md:inline">Currency</span>
+                                    <svg class="hidden w-4 h-4 md:inline" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M19 9l-7 7-7-7">
+                                        </path>
+                                    </svg>
+                                </button>
+                                <!-- Dropdown Currency -->
+                                <div class="hidden z-50 my-4  text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 w-[110px]"
+                                    id="language-dropdown-currency">
+                                    <ul class="py-1 ">
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white">
+                                                <div class="inline-flex items-center">
+
+                                                    USD
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white">
+                                                <div class="inline-flex items-center">
+
+                                                    EUR
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white">
+                                                <div class="inline-flex items-center">
+
+                                                    PLN
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white">
+                                                <div class="inline-flex items-center">
+
+                                                    CAD
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+
+                            </div>
+
+                            <span
+                                class="mr-0 ml-2 w-px h-5 bg-gray-200 dark:bg-gray-600 lg:inline lg:mr-3 lg:ml-5"></span>
+                            <a href="#"
+                                class="inline-flex items-center p-2  text-sm font-medium text-gray-500 rounded-lg dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-600 ">
+                                <svg class="w-4 h-4" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 320 512">
+                                    <path
+                                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                                </svg>
+                            </a>
+                            <a href="#"
+                                class="inline-flex items-center p-2  text-sm font-medium text-gray-500 rounded-lg dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-600 ">
+                                <svg class="w-4 h-4" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512">
+                                    <path
+                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                </svg>
+                            </a>
+
+                        </div>
+
+                        <!-- Login & Sign Up  -->
+
+                        <div id="sign-up1" class="flex md:hidden  items-center lg:order-3 gap-6">
+                            <button type="button" class="cursor-pointer">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="transition duration-300 text-[#6B7280] hover:text-[#4a4e57]">
+                                    <path
+                                        d="M12.0003 2.89999C10.0908 2.89999 8.25942 3.65856 6.90916 5.00883C5.5589 6.35909 4.80033 8.19044 4.80033 10.1V14.4032L3.95193 15.2516C3.78416 15.4194 3.66991 15.6332 3.62363 15.866C3.57735 16.0987 3.60111 16.3399 3.69192 16.5592C3.78272 16.7784 3.93649 16.9658 4.13378 17.0977C4.33107 17.2295 4.56303 17.2999 4.80033 17.3H19.2003C19.4376 17.2999 19.6696 17.2295 19.8669 17.0977C20.0642 16.9658 20.2179 16.7784 20.3087 16.5592C20.3995 16.3399 20.4233 16.0987 20.377 15.866C20.3307 15.6332 20.2165 15.4194 20.0487 15.2516L19.2003 14.4032V10.1C19.2003 8.19044 18.4418 6.35909 17.0915 5.00883C15.7412 3.65856 13.9099 2.89999 12.0003 2.89999ZM12.0003 22.1C11.0456 22.1 10.1299 21.7207 9.45475 21.0456C8.77961 20.3704 8.40033 19.4548 8.40033 18.5H15.6003C15.6003 19.4548 15.221 20.3704 14.5459 21.0456C13.8708 21.7207 12.9551 22.1 12.0003 22.1Z" />
+                                </svg>
+                            </button>
+                            <div>
+
+                            <button id="dropdownUserAvatarButton-1" data-dropdown-toggle="dropdownAvatar-1"
+                                class="flex items-center justify-center text-sm bg-primary-500 w-[33px] h-[33px] rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+                                type="button">
+                                <span class="sr-only">Open user menu</span>
+                                <span class="text-xs text-white font-medium">PH</span>
+                            </button>
+
+                                <!-- Dropdown menu -->
+                                <div id="dropdownAvatar"
+                                    class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-md w-44 dark:bg-gray-700 dark:divide-gray-600 shadow-gray-500">
+                                    <div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
+                                        <div>Bonnie Green</div>
+                                        <div class="font-medium truncate">name@flowbite.com</div>
+                                    </div>
+                                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                        aria-labelledby="dropdownUserAvatarButton">
+                                        <li>
+                                            <a href="#"
+                                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                                        </li>
+                                    </ul>
+                                    <div class="py-2">
+                                        <a href="#"
+                                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign
+                                            out</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+
+                            <!-- mobile-menu-->
+                            <button data-collapse-toggle="mobile-menu-3" type="button"
+                                class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 "
+                                aria-controls="mobile-menu-3" aria-expanded="false">
+                                <span class="sr-only">Open main menu</span>
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <!-- burger-icon -->
+                                <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- line across the screen -->
+
+            <div class=" h-[1px] bg-gray-200 w-[100%]"> </div>
+
+            <div class="mx-auto max-w-[1290px] px-[15px]">
+                <!-- list -->
+                <div class="block md:hidden justify-between items-center w-full  lg:order-1 lg:w-auto hidden"
+                    id="mobile-menu-3">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <li>
+                            <button id="mega-menu-button-3" data-dropdown-toggle="mega-menu-3"
+                                class="flex justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-gray-700 border-b border-gray-100 lg:w-auto hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ">Makes
+                                <svg class="ml-1 w-5 h-5 lg:w-4 lg:h-4" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd"></path>
+                                </svg></button>
+                            <a href="#"
+                                class="block py-2 pr-4 pl-3 border-b border-gray-100 text-gray-600 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-primary-500 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-primary-500 lg:dark:hover:bg-transparent dark:border-gray-700 "
+                                aria-current="page">Models</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ">F.A.Q.</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ">Delivery</a>
+                        </li>
+                        <li>
+
+                            <div id="mega-menu-3"
+                                class="grid hidden absolute z-10 w-full bg-white border border-gray-100 shadow-md dark:border-gray-700 lg:rounded-lg lg:w-auto lg:grid-cols-3 dark:bg-gray-700">
+                                <div
+                                    class="p-2 text-gray-900 bg-white lg:rounded-lg dark:text-white lg:col-span-2 dark:bg-gray-800 ">
+                                    <ul>
+                                        <li>
+                                            <a href="#"
+                                                class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                                                <div class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
+                                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <div class="font-semibold ">Explore Design Work</div>
+                                                    <div class="text-sm font-light text-gray-500 dark:text-gray-400 ">
+                                                        Trending designs to inspire you</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                                                <div class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
+                                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd"
+                                                            d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1001.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <div class="font-semibold ">New & Noteworthy</div>
+                                                    <div class="text-sm font-light text-gray-500 dark:text-gray-400 ">
+                                                        Up-and-coming designers</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                                                <div class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
+                                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z">
+                                                        </path>
+                                                        <path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <div class="font-semibold ">Playoffs</div>
+                                                    <div class="text-sm font-light text-gray-500 dark:text-gray-400 ">
+                                                        Work designers are riffing on</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                                                <div class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
+                                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M5 3a1 1 0 000 2c5.523 0 10 4.477 10 10a1 1 0 102 0C17 8.373 11.627 3 5 3z">
+                                                        </path>
+                                                        <path
+                                                            d="M4 9a1 1 0 011-1 7 7 0 017 7 1 1 0 11-2 0 5 5 0 00-5-5 1 1 0 01-1-1zM3 15a2 2 0 114 0 2 2 0 01-4 0z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <div class="font-semibold ">Blog</div>
+                                                    <div class="text-sm font-light text-gray-500 dark:text-gray-400 ">
+                                                        Interviews, tutorials, and more</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                                                <div class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
+                                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd"
+                                                            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <div class="font-semibold ">Weekly Warm-up</div>
+                                                    <div class="text-sm font-light text-gray-500 dark:text-gray-400 ">
+                                                        Prompt to flex your skills</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="py-5 px-5 bg-gray-50 lg:rounded-lg lg:col-span-1 dark:bg-gray-700">
+                                    <h3 class="mb-4 text-sm font-semibold text-gray-900 dark:text-white ">Browse
+                                        categories</h3>
+                                    <ul class="space-y-4 text-sm text-gray-500 dark:text-gray-400 ">
+                                        <li>
+                                            <a href="#"
+                                                class="hover:text-primary-600 dark:hover:text-primary-500 ">Animation</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="hover:text-primary-600 dark:hover:text-primary-500 ">Branding</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="hover:text-primary-600 dark:hover:text-primary-500 ">Illustration</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="hover:text-primary-600 dark:hover:text-primary-500 ">Mobile</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="hover:text-primary-600 dark:hover:text-primary-500 ">Print</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="hover:text-primary-600 dark:hover:text-primary-500 ">Product
+                                                Design</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hover:text-primary-600 dark:hover:text-primary-500 ">Web
+                                                Design</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ">Auctions</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ">About
+                                Us</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="dark:bg-gray-800">
+                <div class="mx-auto max-w-[1290px] px-[15px]">
+                    <!-- вторая строка -->
+                    <nav class="hidden md:block bg-white border-gray-200 py-[10px] dark:bg-gray-800">
+                        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl ">
+                            <!-- ! -->
+                            <form
+                                class="flex flex-1 justify-end pl-[15px]   pr-[15px] xl:pr-[33px] lg:order-2 h-[36px] relative">
+                                <label for="default-search"
+                                    class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white h-[37px] border-b border-gray-200 ">Search</label>
+                                <div
+                                    class="relative flex w-[100%] lg:w-[90%] lg1:w-[90%] lg2:w-[80%] xl:w-[70%] h-[36px]">
+
+                                    <input type="search" id="default-search"
+                                        class="flex justify-end w-full p-4  text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 "
+                                        placeholder="Search by vin, make or model">
+                                    <button type="submit"
+                                        class=" justify-end absolute right-0 bottom-0 bg-primary-600 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-4 h-full dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+                                        <svg class="w-4 h-4 text-white " aria-hidden="true"
+                                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                                        </svg>
+                                    </button>
+                                    <!--! выпадашка под поиск -->
+                                    <div id="search-header"
+                                        class="hidden border rounded-lg border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 focus:ring-primary-500 focus:border-primary-500 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 pt-2.5 py-1   absolute top-[45px] right-[0px]  z-10 shadow-md ">
+                                        <!-- <p class="mb-3 pl-4 text-sm text-gray-900 font-semibold ">Search suggestion</p> -->
+                                        <!-- 1 -->
+                                        <a href="#" class="relative  mb-[6px] pl-[42px] pr-[36px] flex ">
+
+                                            <img src="img/catalog/search.svg" alt="icon"
+                                                class="absolute top-[3px] left-[17px]">
+
+
+                                            <label data-v-e1="" class="flex items-center relative ">
+                                                <span data-v-e1=""
+                                                    class="text-sm font-normal text-primary-500 dark:text-gray-300 cursor-pointer block w-full">
+                                                    Тут ссылка
+                                                </span>
+
+                                            </label>
+
+
+                                        </a>
+                                        <!-- 2 -->
+                                        <a href="#" class="relative  mb-[6px] pl-[42px] pr-[36px] flex ">
+
+                                            <img src="img/catalog/search.svg" alt="icon"
+                                                class="absolute top-[3px] left-[17px]">
+
+
+                                            <label data-v-e1="" class="flex items-center relative ">
+                                                <span data-v-e1=""
+                                                    class="text-sm font-normal text-primary-500 dark:text-gray-300 cursor-pointer block w-full">
+                                                    Audi A8 XL 3.0l
+                                                </span>
+
+                                            </label>
+
+
+                                        </a>
+                                        <!-- 3 -->
+                                        <a href="#" class="relative  mb-[6px] pl-[42px] pr-[36px] flex ">
+
+                                            <img src="img/catalog/search.svg" alt="icon"
+                                                class="absolute top-[3px] left-[17px]">
+
+
+                                            <label data-v-e1="" class="flex items-center relative ">
+                                                <span data-v-e1=""
+                                                    class="text-sm font-normal text-primary-500 dark:text-gray-300 cursor-pointer block w-full">
+                                                    Audi A8 XL 3.0l
+                                                </span>
+
+                                            </label>
+
+
+                                        </a>
+                                        <!-- 4 -->
+                                        <a href="#" class="relative  mb-[6px] pl-[42px] pr-[36px] flex ">
+
+                                            <img src="img/catalog/search.svg" alt="icon"
+                                                class="absolute top-[3px] left-[17px]">
+
+
+                                            <label data-v-e1="" class="flex items-center relative ">
+                                                <span data-v-e1=""
+                                                    class="text-sm font-normal text-primary-500 dark:text-gray-300 cursor-pointer block w-full">
+                                                    Audi A8 XL 3.0l
+                                                </span>
+
+                                            </label>
+
+
+                                        </a>
+                                        <!-- 5 -->
+                                        <a href="#" class="relative  mb-[6px] pl-[42px] pr-[36px] flex ">
+
+                                            <img src="img/catalog/search.svg" alt="icon"
+                                                class="absolute top-[3px] left-[17px]">
+
+
+                                            <label data-v-e1="" class="flex items-center relative ">
+                                                <span data-v-e1=""
+                                                    class="text-sm font-normal text-primary-500 dark:text-gray-300 cursor-pointer block w-full">
+                                                    Audi A8 XL 3.0l
+                                                </span>
+
+                                            </label>
+
+
+                                        </a>
+                                        <!-- 6 -->
+                                        <a href="#" class="relative  mb-[6px] pl-[42px] pr-[36px] flex ">
+
+                                            <img src="img/catalog/search.svg" alt="icon"
+                                                class="absolute top-[3px] left-[17px]">
+
+
+                                            <label data-v-e1="" class="flex items-center relative ">
+                                                <span data-v-e1=""
+                                                    class="text-sm font-normal text-primary-500 dark:text-gray-300 cursor-pointer block w-full">
+                                                    Audi A8 XL 3.0l
+                                                </span>
+
+                                            </label>
+
+
+                                        </a>
+                                        <!-- 7 -->
+                                        <a href="#" class="relative  mb-[6px] pl-[42px] pr-[36px] flex">
+
+                                            <img src="img/catalog/search.svg" alt="icon"
+                                                class="absolute top-[3px] left-[17px]">
+
+
+                                            <label data-v-e1="" class="flex items-center relative ">
+                                                <span data-v-e1=""
+                                                    class="text-sm font-normal text-primary-500 dark:text-gray-300 cursor-pointer block w-full">
+                                                    Audi A8 XL 3.0l
+                                                </span>
+
+                                            </label>
+
+
+                                        </a>
+
+
+
+
+
+
+
+                                    </div>
+
+                                </div>
+                            </form>
+                            <!-- Login & Sign Up  -->
+                            <div id="sign-up" class="flex items-center lg:order-3 gap-6">
+                                <button type="button" class="cursor-pointer">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="transition duration-300 text-[#6B7280] hover:text-[#4a4e57]">
+                                        <path
+                                            d="M12.0003 2.89999C10.0908 2.89999 8.25942 3.65856 6.90916 5.00883C5.5589 6.35909 4.80033 8.19044 4.80033 10.1V14.4032L3.95193 15.2516C3.78416 15.4194 3.66991 15.6332 3.62363 15.866C3.57735 16.0987 3.60111 16.3399 3.69192 16.5592C3.78272 16.7784 3.93649 16.9658 4.13378 17.0977C4.33107 17.2295 4.56303 17.2999 4.80033 17.3H19.2003C19.4376 17.2999 19.6696 17.2295 19.8669 17.0977C20.0642 16.9658 20.2179 16.7784 20.3087 16.5592C20.3995 16.3399 20.4233 16.0987 20.377 15.866C20.3307 15.6332 20.2165 15.4194 20.0487 15.2516L19.2003 14.4032V10.1C19.2003 8.19044 18.4418 6.35909 17.0915 5.00883C15.7412 3.65856 13.9099 2.89999 12.0003 2.89999ZM12.0003 22.1C11.0456 22.1 10.1299 21.7207 9.45475 21.0456C8.77961 20.3704 8.40033 19.4548 8.40033 18.5H15.6003C15.6003 19.4548 15.221 20.3704 14.5459 21.0456C13.8708 21.7207 12.9551 22.1 12.0003 22.1Z" />
+                                    </svg>
+                                </button>
+                                <div>
+
+                                    <button id="dropdownUserAvatarButton-1" data-dropdown-toggle="dropdownAvatar-1"
+                                        class="flex items-center justify-center text-sm bg-primary-500 w-[33px] h-[33px] rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+                                        type="button">
+                                        <span class="sr-only">Open user menu</span>
+                                        <span class="text-xs text-white font-medium">PH</span>
+                                    </button>
+
+                                    <!-- Dropdown menu -->
+                                    <div id="dropdownAvatar-1"
+                                        class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-md w-44 dark:bg-gray-700 dark:divide-gray-600 shadow-gray-500">
+                                        <div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
+                                            <div>Bonnie Green</div>
+                                            <div class="font-medium truncate">name@flowbite.com</div>
+                                        </div>
+                                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                            aria-labelledby="dropdownUserAvatarButton">
+                                            <li>
+                                                <a href="#"
+                                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"
+                                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"
+                                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                                            </li>
+                                        </ul>
+                                        <div class="py-2">
+                                            <a href="#"
+                                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign
+                                                out</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <!-- cписок -->
+                            <div class="hidden justify-between items-center w-full lg:flex lg:order-1 lg:w-auto "
+                                id="mobile-menu-2">
+                                <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 ">
+                                    <li>
+                                        <button id="mega-menu-button" data-dropdown-toggle="mega-menu"
+                                            class="flex justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-gray-900 border-b border-gray-100 lg:w-auto hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ">Makes
+                                            <svg class="ml-1 w-5 h-5 lg:w-4 lg:h-4" fill="currentColor"
+                                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                    clip-rule="evenodd"></path>
+                                            </svg></button>
+                                        <div id="mega-menu"
+                                            class="grid hidden absolute z-10 w-full bg-white border border-gray-100 shadow-md dark:border-gray-700 lg:rounded-lg lg:w-auto lg:grid-cols-3 dark:bg-gray-700">
+                                            <div
+                                                class="p-2 text-gray-900 bg-white lg:rounded-lg dark:text-white lg:col-span-2 dark:bg-gray-800 ">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#"
+                                                            class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                                                            <div
+                                                                class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
+                                                                <svg class="w-5 h-5" fill="currentColor"
+                                                                    viewBox="0 0 20 20"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z">
+                                                                    </path>
+                                                                </svg>
+                                                            </div>
+                                                            <div>
+                                                                <div class="font-semibold ">Explore Design Work</div>
+                                                                <div
+                                                                    class="text-sm font-light text-gray-500 dark:text-gray-400 ">
+                                                                    Trending designs to inspire you</div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"
+                                                            class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                                                            <div
+                                                                class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
+                                                                <svg class="w-5 h-5" fill="currentColor"
+                                                                    viewBox="0 0 20 20"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1001.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z"
+                                                                        clip-rule="evenodd"></path>
+                                                                </svg>
+                                                            </div>
+                                                            <div>
+                                                                <div class="font-semibold ">New & Noteworthy</div>
+                                                                <div
+                                                                    class="text-sm font-light text-gray-500 dark:text-gray-400 ">
+                                                                    Up-and-coming designers</div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"
+                                                            class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                                                            <div
+                                                                class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
+                                                                <svg class="w-5 h-5" fill="currentColor"
+                                                                    viewBox="0 0 20 20"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z">
+                                                                    </path>
+                                                                    <path
+                                                                        d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z">
+                                                                    </path>
+                                                                </svg>
+                                                            </div>
+                                                            <div>
+                                                                <div class="font-semibold ">Playoffs</div>
+                                                                <div
+                                                                    class="text-sm font-light text-gray-500 dark:text-gray-400 ">
+                                                                    Work designers are riffing on</div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"
+                                                            class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                                                            <div
+                                                                class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
+                                                                <svg class="w-5 h-5" fill="currentColor"
+                                                                    viewBox="0 0 20 20"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M5 3a1 1 0 000 2c5.523 0 10 4.477 10 10a1 1 0 102 0C17 8.373 11.627 3 5 3z">
+                                                                    </path>
+                                                                    <path
+                                                                        d="M4 9a1 1 0 011-1 7 7 0 017 7 1 1 0 11-2 0 5 5 0 00-5-5 1 1 0 01-1-1zM3 15a2 2 0 114 0 2 2 0 01-4 0z">
+                                                                    </path>
+                                                                </svg>
+                                                            </div>
+                                                            <div>
+                                                                <div class="font-semibold  ">Blog</div>
+                                                                <div
+                                                                    class="text-sm font-light text-gray-500 dark:text-gray-400  ">
+                                                                    Interviews, tutorials, and more</div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"
+                                                            class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                                                            <div
+                                                                class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
+                                                                <svg class="w-5 h-5" fill="currentColor"
+                                                                    viewBox="0 0 20 20"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                                                                        clip-rule="evenodd"></path>
+                                                                </svg>
+                                                            </div>
+                                                            <div>
+                                                                <div class="font-semibold ">Weekly Warm-up</div>
+                                                                <div
+                                                                    class="text-sm font-light text-gray-500 dark:text-gray-400 ">
+                                                                    Prompt to flex your skills</div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div
+                                                class="py-5 px-5 bg-gray-50 lg:rounded-lg lg:col-span-1 dark:bg-gray-700">
+                                                <h3 class="mb-4 text-sm font-semibold text-gray-900 dark:text-white ">
+                                                    Browse
+                                                    categories</h3>
+                                                <ul class="space-y-4 text-sm text-gray-500 dark:text-gray-400 ">
+                                                    <li>
+                                                        <a href="#"
+                                                            class="hover:text-primary-600 dark:hover:text-primary-500 ">Animation</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"
+                                                            class="hover:text-primary-600 dark:hover:text-primary-500 ">Branding</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"
+                                                            class="hover:text-primary-600 dark:hover:text-primary-500 ">Illustration</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"
+                                                            class="hover:text-primary-600 dark:hover:text-primary-500 ">Mobile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"
+                                                            class="hover:text-primary-600 dark:hover:text-primary-500 ">Print</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"
+                                                            class="hover:text-primary-600 dark:hover:text-primary-500 ">Product
+                                                            Design</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"
+                                                            class="hover:text-primary-600 dark:hover:text-primary-500 ">Web
+                                                            Design</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700  "
+                                            aria-current="page">Models</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ">F.A.Q.</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ">Delivery</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"
+                                            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ">Auctions</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ">About
+                                            Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- line across the screen -->
+            <div class=" h-[1px] bg-gray-200 w-[100%]">
+
+            </div>
+        </header>
+        <!-- Block end -->
+
+
+
+
+        <div class="flex-auto dark:bg-gray-800">
+            <section class=" bg-white dark:bg-gray-900 pb-10">
+                <div class="mx-auto max-w-[1290px] px-[15px]">
+                    <div class="flex items-start">
+                        <!-- left block -->
+                        <div class="pt-4 px-3 pb-6 border-b border-gray-200">
+                            <div class="flex flex-col gap-4">
+                          
+                                <div class="text-base font-medium text-base text-gray-900 flex items-center gap-3">
+                                    <div>
+                                        <div class="bg-primary-500 w-[32px] h-[32px] rounded-md flex items-center justify-center">
+                                            <span class="uppercase text-xs text-white font-medium">PH</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center gap-3">
+                                        <svg class="w-4 h-4">
+                                            <use xlink:href="./sprite.svg#lock"></use>
+                                        </svg>
+                                        Account
+                                    </div>
+                                    
+                                </div>
+                                <!-- Bids -->
+                                <div class=" flex items-center gap-3 flex justify-between">
+                                    <div class="flex items-center gap-3">
+                                        <svg class="w-4 h-4">
+                                            <use xlink:href="./sprite.svg#list"></use>
+                                        </svg>
+                                        <p class="text-base font-medium text-base text-gray-400">Bids</p>
+                                    </div>
+                                   
+                                   
+                                    <span
+                                        class="bg-red-100 text-red-800 text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">
+                                        Soon
+                                    </span>
+                                </div>
+                                <!-- Notifications -->
+                                <div class=" flex items-center gap-3 flex justify-between">
+                                    <div class="flex items-center gap-3">
+                                        <svg class="w-4 h-4">
+                                            <use xlink:href="./sprite.svg#inbox-full"></use>
+                                        </svg>
+                                        <p class="text-base font-medium text-base text-gray-400">Notifications</p>
+                                    </div>
+                                
+                                
+                                    <span
+                                        class="bg-red-100 text-red-800 text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">
+                                        Soon
+                                    </span>
+                                </div>
+                                <!-- VIN Removal -->
+                                 <button type="button" class="bg-gray-100 hover:bg-gray-200 rounded-lg flex items-center gap-2 px-2 py-2.5">
+                                    <svg class="w-4 h-4">
+                                        <use xlink:href="./sprite.svg#eye-icon"></use>
+                                    </svg>
+                                    VIN Removal
+                                 </button>
+                                
+                            
+                            </div>
+                      
+                        </div>
+                        <!-- right block -->
+                        <div class=" w-full border-l border-gray-200">
+                            <!-- VIN Removal -->
+                            <div class="pt-5 pl-5 pb-[23px]">
+                                <h2 class="text-2xl font-semibold mb-4">VIN Removal</h2>
+                                <div class="flex justify-between items-end">
+                                    <div class="flex gap-2.5 w-[375px]">
+                                       
+                                    <div class="relative">
+                                        <svg class="absolute left-4 top-1/2 transform -translate-y-1/2 w-4 h-4">
+                                            <use xlink:href="./sprite.svg#search-gray"></use>
+                                        </svg>
+                                        <input type="search" id="default-search"
+                                            class="w-full pl-10 py-3 px-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                            placeholder="Enter your VIN">
+                                    </div>
+
+                                     
+                                       
+                                            <button type="button"
+                                                class="px-5 py-2.5 text-sm font-medium text-white inline-flex items-center gap-2 bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                                <svg class="w-4 h-4">
+                                                    <use xlink:href="./sprite.svg#search-white"></use>
+                                                </svg>
+                                                Remove
+                                            </button>
+                                    
+
+                                    </div>
+                                        <button type="button"
+                                            class="px-3 py-2 text-sm font-medium text-white inline-flex gap-2 items-center bg-primary-600  rounded-lg text-center dark:bg-blue-600 ">
+                                            <svg class="w-5 h-5">
+                                                <use xlink:href="./sprite.svg#cash-white"></use>
+                                            </svg>
+                                            Balance: $300
+                                        </button>
+                                  
+
+
+                                </div>
+
+                            </div>
+                            <div class="relative overflow-x-auto">
+                                <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                                    <thead class="text-sm font-semibold text-gray-600 bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
+                                        <tr>
+                                            <!-- колонка -->
+                                            <th scope="col" class="px-6 py-3">
+                                                VIN
+                                            </th>
+                                            <!-- колонка -->
+                                            <th scope="col" class="px-6 py-3 text-center">
+                                                Status
+                                            </th>
+                                            <th scope="col" class="px-6 py-3 text-center">
+                                                Date
+                                            </th>
+                                            <!-- колонка -->
+                                            <th scope="col" class="px-6 py-3 text-center">
+                                                Price
+                                            </th>
+                                            <!-- колонка -->
+                                            <th scope="col" class="px-6 py-3 text-center">
+                                               
+                                            </th>
+                                               
+                                            
+                                           
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- строка 1 -->
+                                        <tr class="bg-white dark:bg-gray-800 border-b border-gray-300">
+                                            <th scope="row" class="pl-5 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white flex flex-col ">
+                                                <span class="text-base font-semibold leading-6 text-gray-900">2GNAXTEV3L6122201</span>
+                                                <span class="text-sm font-normal leading-5 text-gray-600">Mercedes Benz CLA350 2021</span>
+                                
+
+                                            </th>
+                                            <td class=" py-2">
+                                                <div class="flex justify-center">
+                                                    <button type="button" class="flex gap-1 bg-green-500 items-center px-3 py-0.5 rounded-md">
+                                                        <svg class="w-3 h-4 translate-y-[1px]">
+                                                            <use xlink:href="./sprite.svg#eye-white"></use>
+                                                        </svg>
+                                                        <span class="text-sm font-medium text-white">Removed</span>
+                                                
+                                                    </button>
+                                                </div>
+                                                
+                                            </td>
+                                            <td class="py-2 text-center">
+                                              <span class="text-gray-900 text-base font-medium">08.09.2024 15:00 CET</span>
+                                            </td>
+                                            <td class="py-2 text-center">
+                                                <span class="text-gray-900 text-base font-medium">150$</span>
+                                            </td>
+                                            <td>
+                                                <div class=" flex justify-end">
+                                                    <button type="button"
+                                                        class="px-3 py-2 text-sm font-medium text-white inline-flex gap-2 items-center bg-primary-600  rounded-lg text-center hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                                        <svg class="w-3 h-4 translate-y-[1px]">
+                                                            <use xlink:href="./sprite.svg#link-white"></use>
+                                                        </svg>
+                                                        Copy link
+                                                    </button>
+                                                </div>
+                                            
+                                            </td>
+                                          
+                                        </tr>
+                                        <!-- строка 2 -->
+                                        <tr class="bg-white dark:bg-gray-800 border-b border-gray-300">
+                                            <th scope="row" class="pl-5 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white flex flex-col ">
+                                                <span class="text-base font-semibold leading-6 text-gray-900">React UI kit</span>
+                                                <span class="text-sm font-normal leading-5 text-gray-600">Html templates</span>
+                                        
+                                        
+                                            </th>
+                                            <td class=" py-2 ">
+                                                <div class="flex justify-center">
+                                                    <button type="button" class="flex gap-1 bg-green-500 items-center px-3 py-0.5 rounded-md">
+                                                        <svg class="w-3 h-4 translate-y-[1px]">
+                                                            <use xlink:href="./sprite.svg#eye-white"></use>
+                                                        </svg>
+                                                        <span class="text-sm font-medium text-white">Removed</span>
+
+                                                    </button>
+                                                </div>
+                                               
+                                        
+                                            </td>
+                                            <td class="py-2 text-center">
+                                                <span class="text-gray-900 text-base font-medium">08.09.2024 14:00 CET</span>
+                                            </td>
+                                            <td class="py-2 text-center">
+                                                <span class="text-gray-900 text-base font-medium">30$</span>
+                                            </td>
+                                            <td>
+                                                <div class=" flex justify-end">
+                                                    <button type="button"
+                                                        class="px-3 py-2 text-sm font-medium text-white inline-flex gap-2 items-center bg-primary-600  rounded-lg text-center hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                                        <svg class="w-3 h-4 translate-y-[1px]">
+                                                            <use xlink:href="./sprite.svg#link-white"></use>
+                                                        </svg>
+                                                        Copy link
+                                                    </button>
+                                                </div>
+                                            
+                                            </td>
+                                   
+                                        
+                                        </tr>
+                                        <!-- строка 3-->
+                                        <tr class="bg-white dark:bg-gray-800 border-b border-gray-300">
+                                            <th scope="row" class="pl-5 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white flex flex-col ">
+                                                <span class="text-base font-semibold leading-6 text-gray-900">Coworking Template</span>
+                                                <span class="text-sm font-normal leading-5 text-gray-600">Html templates</span>
+                                        
+                                        
+                                            </th>
+                                            <td class="py-2 text-center">
+                                                <span class="text-gray-900 text-base font-medium">Tailwind CSS</span>
+                                            </td>
+                                            <td class="py-2 text-center">
+                                                <span class="text-gray-900 text-base font-medium">#194856</span>
+                                            </td>
+                                            <td class="py-2 text-center">
+                                                <span class="text-gray-900 text-base font-medium">30$</span>
+                                            </td>
+                                            <td>
+                                                <div class=" flex justify-end">
+                                                    <button type="button"
+                                                        class="px-3 py-2 text-sm font-medium text-white inline-flex gap-2 items-center bg-primary-600  rounded-lg text-center hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                                        <svg class="w-3 h-4 translate-y-[1px]">
+                                                            <use xlink:href="./sprite.svg#pencil-white"></use>
+                                                        </svg>
+                                                        Edit Item
+                                                    </button>
+                                                </div>
+                                        
+                                            </td>
+                                        
+                                        
+                                        </tr>
+                                        <!-- строка 4 -->
+                                        <tr class="bg-white dark:bg-gray-800 border-b border-gray-300 relative">
+                                            <th scope="row" class="pl-5 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white flex items-center gap-6 absolute  top-1/2 transform -translate-y-1/2">
+                                                <div class="flex items-center">
+                                                    <input id="checkbox-all-search" type="checkbox"
+                                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                                </div>
+                                                <div>
+                                                    <span class="text-base font-semibold leading-6 text-gray-900">Coworking Template</span>
+                                                    <span class="text-sm font-normal leading-5 text-gray-600">Html templates</span>
+                                                </div>
+                                               
+                                        
+                                        
+                                            </th>
+                                            <td class="py-2 text-center">
+                                                <span class="text-gray-900 text-base font-medium">Tailwind CSS</span>
+                                            </td>
+                                            <td class="py-2 text-center">
+                                                <span class="text-gray-900 text-base font-medium">#194856</span>
+                                            </td>
+                                            <td class="py-2 text-center">
+                                                <span class="text-gray-900 text-base font-medium">30$</span>
+                                            </td>
+                                            <td>
+                                                <div class=" flex justify-end py-2">
+                                                    <button type="button"
+                                                        class="px-3 py-2 text-sm font-medium text-white inline-flex gap-2 items-center bg-primary-600  rounded-lg text-center hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                                        <svg class="w-3 h-4 translate-y-[1px]">
+                                                            <use xlink:href="./sprite.svg#pencil-white"></use>
+                                                        </svg>
+                                                        Edit Item
+                                                    </button>
+                                                </div>
+                                        
+                                            </td>
+                                        
+                                        
+                                        </tr>
+                                        <!-- строка 5 -->
+                                       <tr class="bg-white dark:bg-gray-800 border-b border-gray-300 relative">
+                                            <th scope="row" class="pl-5 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white flex items-center gap-6 absolute  top-1/2 transform -translate-y-1/2">
+                                                <div class="flex items-center">
+                                                    <input id="checkbox-all-search" type="checkbox"
+                                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                                </div>
+                                                <div>
+                                                    <span class="text-base font-semibold leading-6 text-gray-900">Coworking Template</span>
+                                                    <span class="text-sm font-normal leading-5 text-gray-600">Html templates</span>
+                                                </div>
+                                               
+                                        
+                                        
+                                            </th>
+                                            <td class="py-2 text-center">
+                                                <span class="text-gray-900 text-base font-medium">Tailwind CSS</span>
+                                            </td>
+                                            <td class="py-2 text-center">
+                                                <span class="text-gray-900 text-base font-medium">#194856</span>
+                                            </td>
+                                            <td class="py-2 text-center">
+                                                <span class="text-gray-900 text-base font-medium">30$</span>
+                                            </td>
+                                            <td>
+                                                <div class=" flex justify-end py-2">
+                                                    <button type="button"
+                                                        class="px-3 py-2 text-sm font-medium text-white inline-flex gap-2 items-center bg-primary-600  rounded-lg text-center hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                                        <svg class="w-3 h-4 translate-y-[1px]">
+                                                            <use xlink:href="./sprite.svg#pencil-white"></use>
+                                                        </svg>
+                                                        Edit Item
+                                                    </button>
+                                                </div>
+                                        
+                                            </td>
+                                        
+                                        
+                                        </tr>
+                                    </tbody>
+                           
+                                </table>
+
+                                <div class="flex items-center justify-between py-4 pl-5 border-b border-gray-300">
+                                    <p class="text-sm font-medium text-gray-500">Show <span class="text-sm font-medium text-gray-900">1-15</span>  of <span class="text-sm font-medium text-gray-900">987</span> </p>
+                                    <div class="flex gap-2">
+                                        <button type="button"
+                                            class="flex items-center gap-2 py-2 px-3 text-sm font-medium text-gray-800 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                                            <svg class="w-4 h-5 translate-y-[2px]">
+                                                <use xlink:href="./sprite.svg#chevron-left-black"></use>
+                                            </svg>
+                                            Previous
+                                        </button>
+                     
+
+                                        <button type="button"
+                                            class="flex items-center gap-2 px-2 py-2 text-sm font-medium text-white inline-flex items-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                           
+                                            Next
+                                            <svg class="w-4 h-5 translate-y-[2px]">
+                                                <use xlink:href="./sprite.svg#chevron-right-white"></use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+        </div>
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class=" dark:bg-gray-800 relative z-50">
+            <!-- line across the screen -->
+            <div class=" h-[1px] bg-red-600 w-[100%]"> </div>
+            <div class="py-6 mx-auto max-w-[1290px] px-[15px] h-10 bg-primary-600">
+    
+            </div>
+    
+    
+        </div>
+    </footer>
+    </div>
+
+    <script src="js/flowbite.js"></script>
+    <script src="js/main-js.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>
